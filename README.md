@@ -24,8 +24,6 @@ A complete project management system built with Next.js 14+, featuring mock auth
 ### Project Management
 
 - **Full CRUD**: Create, read, update, and delete projects
-- **Advanced Filters**: By name, description, status, and visibility
-- **Project Status**: To Do, In Progress, Done
 - **Visibility**: Public and private projects
 - **Validation**: Client and server-side form validation
 
@@ -35,7 +33,6 @@ A complete project management system built with Next.js 14+, featuring mock auth
 - `/login` - Authentication page
 - `/app/projects` - Private dashboard (requires login)
 - `/projects` - Public projects list
-- `/projects/[id]` - Public project details
 
 ### Performance
 
@@ -65,7 +62,7 @@ A complete project management system built with Next.js 14+, featuring mock auth
    ```
 
 3. **Configure environment variables**
-   Create a `.env.local` file:
+   Create a `.env` file:
 
    ```env
    DATABASE_URL="postgresql://username:password@host:5432/database?sslmode=require"
